@@ -1,6 +1,6 @@
 # npmtest-sinon
 
-#### test coverage for  [sinon (v2.1.0)](http://sinonjs.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-sinon.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sinon) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sinon.svg)](https://travis-ci.org/npmtest/node-npmtest-sinon)
+#### basic test coverage for  [sinon (v2.1.0)](http://sinonjs.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-sinon.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sinon) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sinon.svg)](https://travis-ci.org/npmtest/node-npmtest-sinon)
 
 #### JavaScript test spies, stubs and mocks.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sinon/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sinon/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sinon/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sinon/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sinon/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sinon/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sinon/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sinon/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sinon/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sinon/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sinon/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sinon/build/coverage.html/index.html)
 
@@ -778,7 +778,8 @@
         "test-node": "mocha --recursive -R dot test/",
         "test-webworker": "browserify --no-commondir --full-paths -p [ mocaccino -R spec --color ] test/webworker/webworker-support-assessment.js | phantomic --web-security false"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
